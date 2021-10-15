@@ -1,0 +1,25 @@
+{
+  "name": "twilio_sms",
+  "version": "1.0.0",
+  "description": "Logs received sms using twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriamue/twilio_sms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriamue/twilio_sms/issues"
+  },
+  "homepage": "https://github.com/chriamue/twilio_sms#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "twilio": "^3.69.0"
+  }
+}
